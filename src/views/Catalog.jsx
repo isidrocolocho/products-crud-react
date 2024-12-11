@@ -91,7 +91,7 @@ const Catalog = () => {
                     {/* Acordeón 1 */}
                     <div className="border rounded-md mb-4">
                         <button
-                            className="w-full text-left px-4 py-2 bg-indigo-500 text-white text-center font-semibold rounded-t-md hover:bg-indigo-600"
+                            className="w-full  px-4 py-2 bg-indigo-500 text-white text-center font-semibold rounded-t-md hover:bg-indigo-600"
                             onClick={() => toggleAccordion(1)}
                         >
                             Catalogo de productos
@@ -106,7 +106,7 @@ const Catalog = () => {
                     {/* Acordeón 2 */}
                     <div className="border rounded-md">
                         <button
-                            className="w-full text-left px-4 py-2 bg-indigo-500 text-white text-center font-semibold rounded-t-md hover:bg-indigo-600"
+                            className="w-full  px-4 py-2 bg-indigo-500 text-white text-center font-semibold rounded-t-md hover:bg-indigo-600"
                             onClick={() => toggleAccordion(2)}
                         >
                             Listado de Producto
